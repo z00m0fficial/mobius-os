@@ -1,0 +1,31 @@
+repository: mobius-os
+version: 1.0.0
+status: active
+classification: internal-platform
+primary_layer: mobius-operating-system
+mission: Build organizations that learn faster than they forget.
+canonical_documents:
+  - ARC-001
+  - ARC-002
+  - ARC-003
+  - ARC-006
+  - ENG-001
+  - GOV-001
+depends_on:
+  - atlas-core
+capabilities:
+  - organization-workspaces
+  - dashboards
+  - workflows
+  - tasks
+  - scheduling
+  - notifications
+  - policy-engine
+  - audit-logs
+  - atlas-integration
+quality_gates:
+  tests_required: true
+  security_review_required: true
+  documentation_required: true
+  atlas_boundary_required: true
+  event_emission_required: true
