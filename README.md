@@ -12,32 +12,46 @@ Build organizations that learn faster than they forget.
 
 1. Organization Workspaces
 2. User and Role Management
-3. Dashboard Framework
+3. Policy Engine
 4. Workflow Engine
 5. Task Engine
-6. Scheduling Layer
+6. Dashboard Framwork
 7. Notification System
-8. Policy Engine
+8. Scheduling System
 9. Audit Logs
 10. Atlas Core Integration
 
 ## Architecture
 
 ```text
-                         Mobius Operating System (MOS)
-                                      │
-          ┌───────────────────────────┼───────────────────────────┐
-          │                           │                           │
-   Organization Workspace       Workflow Engine             Dashboard System
-          │                           │                           │
-   Users • Roles • Teams       Tasks • Scheduling        Executive • Operations
-          └───────────────────────────┼───────────────────────────┘
-                                      │
-                         Atlas Platform Interfaces
-                           APIs • Events • SDKs
-                                      │
-                                  Atlas Core
+                          MOBIUS
+    One Organization. Infinite Intelligence. Limitless Impact.
+════════════════════════════════════════════════════════════════════
+
+                      Atlas Core
+                          │
+     Identity • Memory • Knowledge • Reasoning
+                          │
+ Atlas Platform APIs • Events • SDKs • Authentication
+                          │
+                 Mobius Operating System
+                          │
+      Connect • Network • Intelligence • Enterprise
+                          │
+                 Shared Platform Layer
+                          │
+                        Forge
+                          │
+     SDKs • DevTools • CLI • Templates • CI/CD
+
+════════════════════════════════════════════════════════════════════
+ Cross-Cutting Platform Services
+ Security • Privacy • Governance • Compliance • Audit • Observability
+════════════════════════════════════════════════════════════════════
 ```
+```
+Mobius Platform Architecture
+Version 1.0
 
 ## Local Development
 
