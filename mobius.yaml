@@ -1,0 +1,25 @@
+mobius:
+  repository: mobius-os
+  department: Operations
+  domain: Operations
+  service: Mobius Operating System
+  canon_version: pending-mobius-canon
+  architecture_version: 1.0.0
+  sync_status: update-required
+  consumes:
+    - routing-decisions
+    - memory-events
+    - repository-sync-status
+    - department-health
+  produces:
+    - command-center-views
+    - executive-workflows
+    - operational-dashboards
+  depends_on:
+    - atlas-core
+    - mobius-router
+    - mobius-voice
+    - mobius-docs
+  governance:
+    approval_workflow: true
+    command_center_required: true
